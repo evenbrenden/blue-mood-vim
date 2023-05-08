@@ -45,14 +45,14 @@ let s:lightgray="#cccccc"
 let s:blue4="#00008b"
 let s:goldenrod="#daa520"
 
-exe 'hi Normal guifg='s:whitesmoke' guibg='s:dodgerblue4 
-exe 'hi Cursor guifg='s:dodgerblue4' guibg='s:ffb90f 
-exe 'hi CursorLine  guibg='s:bg2 
-exe 'hi CursorColumn  guibg='s:bg2 
-exe 'hi ColorColumn  guibg='s:bg2 
-exe 'hi LineNr guifg='s:gray72' guibg='s:dodgerblue4 
-exe 'hi CursorLineNr guifg='s:gray72' guibg='s:dodgerblue4' gui=bold cterm=bold' 
-exe 'hi VertSplit guifg='s:dodgerblue4' guibg='s:gray72 
+exe 'hi Normal guifg='s:whitesmoke' guibg='s:dodgerblue4
+exe 'hi Cursor guifg='s:dodgerblue4' guibg='s:ffb90f
+exe 'hi CursorLine  guibg='s:bg2
+exe 'hi CursorColumn  guibg='s:bg2
+exe 'hi ColorColumn  guibg='s:bg2
+exe 'hi LineNr guifg='s:gray72' guibg='s:dodgerblue4
+exe 'hi CursorLineNr guifg='s:gray72' guibg='s:dodgerblue4' gui=bold cterm=bold'
+exe 'hi VertSplit guifg='s:dodgerblue4' guibg='s:gray72
 exe 'hi MatchParen guifg='s:whitesmoke'  guibg='s:steelblue3
 exe 'hi StatusLine guifg='s:black' guibg='s:bfbfbf' gui=NONE cterm=NONE'
 exe 'hi StatusLineNC guifg='s:lightgray' guibg='s:darkgray' gui=NONE cterm=NONE'
@@ -60,14 +60,14 @@ exe 'hi StatusLineTerm guifg='s:blue4' guibg='s:goldenrod' gui=NONE cterm=NONE'
 exe 'hi StatusLineTermNC guifg='s:gray72' guibg='s:bg2
 exe 'hi Pmenu guifg='s:whitesmoke' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
-exe 'hi PmenuSbar  guibg='s:bg2 
+exe 'hi PmenuSbar  guibg='s:bg2
 exe 'hi PmenuThumb guibg='s:bg3
 exe 'hi IncSearch guifg='s:red' guibg='s:yellow
-exe 'hi Visual guifg='s:yellow' guibg='s:red 
+exe 'hi Visual guifg='s:yellow' guibg='s:red
 exe 'hi Search   guifg='s:red' guibg='s:yellow
-exe 'hi Directory guifg='s:cyan  
-exe 'hi Folded guifg='s:gray72' guibg='s:dodgerblue4 
-exe 'hi FoldColumn guifg='s:gray72' guibg='s:dodgerblue4 
+exe 'hi Directory guifg='s:cyan
+exe 'hi Folded guifg='s:gray72' guibg='s:dodgerblue4
+exe 'hi FoldColumn guifg='s:gray72' guibg='s:dodgerblue4
 exe 'hi ModeMsg guifg='s:whitesmoke
 exe 'hi MoreMsg guifg='s:whitesmoke' cterm=bold'
 exe 'hi Question guifg='s:whitesmoke
@@ -78,49 +78,49 @@ exe 'hi TabLineSel   guifg='s:black' guibg='s:bfbfbf' gui=bold'
 exe 'hi SignColumn guibg='s:dodgerblue4
 exe 'hi SpellCap guisp='s:gold
 
-exe 'hi Boolean guifg='s:cyan3' gui=bold cterm=bold'  
-exe 'hi Character guifg='s:cyan  
-exe 'hi Comment guifg='s:gray72' gui=bold cterm=bold' 
-exe 'hi Conditional guifg='s:gold  
-exe 'hi Constant guifg='s:cyan 
-exe 'hi Debug guifg='s:whitesmoke 
-exe 'hi Define guifg='s:gold 
-exe 'hi Delimiter guifg='s:whitesmoke 
+exe 'hi Boolean guifg='s:cyan3' gui=bold cterm=bold'
+exe 'hi Character guifg='s:cyan
+exe 'hi Comment guifg='s:gray72' gui=bold cterm=bold'
+exe 'hi Conditional guifg='s:gold
+exe 'hi Constant guifg='s:cyan
+exe 'hi Debug guifg='s:whitesmoke
+exe 'hi Define guifg='s:gold
+exe 'hi Delimiter guifg='s:whitesmoke
 exe 'hi ErrorMsg guifg='s:whitesmoke' guibg='s:red' gui=bold cterm=bold'
-exe 'hi WarningMsg guifg='s:gold' gui=bold cterm=bold' 
+exe 'hi WarningMsg guifg='s:gold' gui=bold cterm=bold'
 exe 'hi Exception guifg='s:gold
-exe 'hi Float guifg='s:cyan  
-exe 'hi Function guifg='s:chartreusegreen' gui=bold cterm=bold'  
+exe 'hi Float guifg='s:cyan
+exe 'hi Function guifg='s:chartreusegreen' gui=bold cterm=bold'
 exe 'hi Identifier guifg='s:gold' gui=bold cterm=bold'
 exe 'hi Keyword guifg='s:gold'  gui=bold cterm=bold'
 exe 'hi Label guifg='s:cyan3
 exe 'hi Macro guifg='s:gold' gui=bold cterm=bold'
-exe 'hi NonText guifg='s:steelblue3' guibg='s:dodgerblue4 
-exe 'hi EndOfBuffer guifg='s:steelblue3' guibg='s:dodgerblue4 
-exe 'hi Number guifg='s:cyan  
-exe 'hi Operator guifg='s:gold  
+exe 'hi NonText guifg='s:steelblue3' guibg='s:dodgerblue4
+exe 'hi EndOfBuffer guifg='s:steelblue3' guibg='s:dodgerblue4
+exe 'hi Number guifg='s:cyan
+exe 'hi Operator guifg='s:gold
 exe 'hi PreProc guifg='s:gold
 exe 'hi PreCondit guifg='s:gold
 exe 'hi Include guifg='s:gold
-exe 'hi Repeat guifg='s:gold  
-exe 'hi Special guifg='s:whitesmoke 
-exe 'hi SpecialChar guifg='s:whitesmoke 
+exe 'hi Repeat guifg='s:gold
+exe 'hi Special guifg='s:whitesmoke
+exe 'hi SpecialChar guifg='s:whitesmoke
 exe 'hi SpecialComment guifg='s:gray72' gui=bold cterm=bold'
-exe 'hi SpecialKey guifg='s:steelblue3' guibg='s:dodgerblue4 
-exe 'hi Statement guifg='s:gold  
+exe 'hi SpecialKey guifg='s:steelblue3' guibg='s:dodgerblue4
+exe 'hi Statement guifg='s:gold
 exe 'hi StorageClass guifg='s:chartreusegreen
-exe 'hi String guifg='s:tomato 
-exe 'hi Structure guifg='s:chartreusegreen 
-exe 'hi Tag guifg='s:gold  
+exe 'hi String guifg='s:tomato
+exe 'hi Structure guifg='s:chartreusegreen
+exe 'hi Tag guifg='s:gold
 exe 'hi Title guifg='s:chartreusegreen'  gui=bold cterm=bold'
 exe 'hi Todo guifg='s:wheat'  guibg='s:dodgerblue4' gui=bold cterm=bold'
-exe 'hi Type guifg='s:chartreusegreen 
+exe 'hi Type guifg='s:chartreusegreen
 exe 'hi Typedef guifg='s:chartreusegreen
 exe 'hi Underlined   gui=underline'
 
 exe 'hi DiffAdd guifg='s:chartreusegreen' guibg='s:dodgerblue4' gui=bold cterm=bold'
 exe 'hi DiffDelete guifg='s:tomato' guibg='s:dodgerblue4' gui=NONE cterm=NONE'
-exe 'hi DiffChange guifg='s:whitesmoke' guibg='s:cyan3 
+exe 'hi DiffChange guifg='s:whitesmoke' guibg='s:cyan3
 exe 'hi DiffText guifg='s:whitesmoke' guibg='s:steelblue3' gui=bold cterm=bold'
 
 " Ruby Highlighting

@@ -154,4 +154,24 @@ exe 'hi htmlSpecialTagName guifg='s:gold
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:wheat
 
-
+" Diagnostics
+exe 'hi DiagnosticError ctermfg=1 cterm=bold guifg='s:tomato
+exe 'hi DiagnosticWarn ctermfg=3 guifg='s:warning2
+exe 'hi DiagnosticInfo ctermfg=4 guifg='s:steelblue3
+exe 'hi DiagnosticHint ctermfg=7 guifg='s:lightgray
+exe 'hi DiagnosticUnderlineError cterm=underline cterm=bold gui=underline guisp='s:tomato
+exe 'hi DiagnosticUnderlineWarn cterm=underline gui=underline guisp='s:warning2
+exe 'hi DiagnosticUnderlineInfo cterm=underline gui=underline guisp='s:steelblue3
+exe 'hi DiagnosticUnderlineHint cterm=underline gui=underline guisp='s:lightgray
+exe 'hi default link DiagnosticVirtualTextError DiagnosticError'
+exe 'hi default link DiagnosticVirtualTextWarn DiagnosticWarn'
+exe 'hi default link DiagnosticVirtualTextInfo DiagnosticInfo'
+exe 'hi default link DiagnosticVirtualTextHint DiagnosticHint'
+exe 'hi default link DiagnosticFloatingError DiagnosticError'
+exe 'hi default link DiagnosticFloatingWarn DiagnosticWarn'
+exe 'hi default link DiagnosticFloatingInfo DiagnosticInfo'
+exe 'hi default link DiagnosticFloatingHint DiagnosticHint'
+exe 'hi default link DiagnosticSignError DiagnosticError'
+exe 'hi default link DiagnosticSignWarn DiagnosticWarn'
+exe 'hi default link DiagnosticSignInfo DiagnosticInfo'
+exe 'hi default link DiagnosticSignHint DiagnosticHint'
